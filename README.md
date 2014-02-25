@@ -7,7 +7,7 @@ PHP_Convert_DB is a PHP script for converting a MySQL database from one encoding
 - Dump your MySQL database structure (do not dump data)
 - In the dump, fix all encoding and collation declarations so that they are as you would like to see them in the migrated database
 - Import the fixed dump to a new blank database
-- Open sys_migrate.php and configure the class so that the settings match your setup
+- Open php_convert_db.php and configure the class so that the settings match your setup
 - Run index.php, and all your data should be transferred over to the new database with the correct encoding
 
 Enjoy!
@@ -21,8 +21,8 @@ Enjoy!
 
 ### How to contribute
 
-Please base all your pull requests and development off of the 'develop' branch.
-The `master` branch is tagged releases only.
+Please base all your pull requests and development off of the `develop` branch.
+The `master` branch is for tagged releases only.
 
 ### Main Developers:
 
